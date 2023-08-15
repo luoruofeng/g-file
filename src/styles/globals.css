@@ -1,0 +1,41 @@
+/* styles/globals.css */
+/* Reset some default browser styles */
+body,
+h1, h2, h3, h4, h5, h6,
+p, figure {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a base font size and line height */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+}
+
+/* Apply basic typography styles */
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+/* Add a header with Facebook-style background and color */
+header {
+  background-color: #1877f2;
+  color: #fff;
+  padding: 1rem;
+}
+
+/* Define breakpoints for responsive design */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  h1, h2, h3 {
+    font-size: 24px;
+  }
+}
